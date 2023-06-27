@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --var-background-color: #F8F9FB;
+    --var-color-one: #34495C;
+    --var-color-two: #40B686;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Navigation */
+
+nav {
+    padding: 20px 0;
+    background-color: var(--var-background-color);
+}
+
+nav img {
+    width: 250px; 
+}
+
+nav ul li {
+    padding: 0 20px;
+}
+
+.nav-link {
+    color: var(--var-color-one);
+}
+
+nav ul li a {
+    font-size: 16px;
+}
+
+nav .nav-item.login .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+nav .btn-outline-primary {
+    font-size: 14px;
+    border-color: var(--var-color-two);
+    background-color: var(--var-color-two);
+    color: #fff;
+    
+}
+
+.nav-link:hover {
+    color: var(--var-color-two);
+}
+
+nav .btn-outline-primary:hover {
+    background-color: var(--var-color-two);
+    border-color: var(--var-color-two);
+    color: #fff;
+}
+
+
+/* Header */
+.header {
+    padding: 50px 0;
+    background-color: var(--var-background-color);
+}
+
+.header .left-head {
+    padding-top: 20px;
+}
+
+.header .left-head h1 {
+    font-size: 55px;
+    color: var(--var-color-one);
+}
+
+.header .left-head p {
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header .left-head .btn-primary {
+    border-color: var(--var-color-two);
+    background-color: var(--var-color-two);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.header .left-head .btn-outline-primary {
+    border-color: var(--var-color-two);
+    color: var(--var-color-one);
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+}
+
+.header .right-head .cover {
+    padding-top: 20px;
+}
+
+.header .right-head .cover img {
+    width: 100%;
+}
+
+
+/* why us */
+
+.why_us  {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.why_us h2 {
+    margin-bottom: 70px;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: var(--var-color-one);
+}
+
+.why_us .box {
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+
+.why_us .box i {
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.why_us .fa-2xl {
+    font-size: 3em;
+}
+
+.why_us .box h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.why_us .box p {
+    font-size: 14px;
+    color: var(--var-color-one);
+}
+
+
+/* Newsletter */
+
+.newsletter {
+    padding: 70px 0;
+    background-color: var(--var-background-color);
+}
+
+.newsletter h3 {
+    font-size: 40px;
+    color: var(--var-color-one);
+}
+
+.newsletter .subscribe_two {
+    padding-top: 30px;
+}
+
+.newsletter .subscribe_two input {
+   border-bottom: 2px solid #000;
+}
+
+.newsletter .subscribe_two .row>* {
+    padding-right: 0;
+}
+
+.newsletter .subscribe_two .btn-primary {
+    border-color: var(--var-color-two);
+    background-color: var(--var-color-two);
+    color: #fff;  
+}
+
+/* courses */
+
+.courses {
+    padding: 100px 0;
+}
+
+.courses h2 {
+    font-size: 40px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: var(--var-color-one);
+}
+
+.courses h5 {
+    color: var(--var-color-one);
+}
+
+.courses p {
+    font-size: 14px;
+}
+
+.courses .container-box {
+    padding: 0 250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.courses .btn-outline-primary {
+    border-color: var(--var-color-two);
+    color: var(--var-color-two);  
+}
+
+.courses .btn-outline-primary:hover {
+    background-color: var(--var-color-two);
+    border-color: var(--var-color-two);
+    color: #fff;
+}
+
+/* footer */
+
+footer {
+    padding: 50px 0;
+    background-color: #1E1E2C;
+}
+
+footer img {
+    width: 200px;
+}
+
+footer p {
+   color: #fff;
+   font-size: 12px;
+}
+
+
+/* mobile */
+
+@media only screen and (max-width: 728px) {
+    
+    .header .left-head h1 {
+        font-size: 40px;
+    }
+
+    .header .left-head p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+
+    .courses .container-box {
+        padding: 0 10px;
+    }
+
+    .newsletter {
+        padding: 50px 10px;
+    }
+}
+
+
+
